@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfb48f8a-5f4a-41ef-b4a2-05a564d015b7" name="Changes" comment="Stage 3 Done&#10;Handled invalid Input&#10;now the Game continues until user inputs &quot;!exit&quot;">
-      <change afterPath="$PROJECT_DIR$/rating.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bfb48f8a-5f4a-41ef-b4a2-05a564d015b7" name="Changes" comment="Stage 4 Done&#10;Intoducing Score Board&#10;and Users can now view their Ratings &#10;Their ratings are stored now in rating.txt">
+      <change afterPath="$PROJECT_DIR$/src/rockpaperscissors/CircularList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rockpaperscissors/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rockpaperscissors/Main.java" afterDir="false" />
     </list>
@@ -63,7 +62,7 @@
       <workItem from="1695011546358" duration="7500000" />
       <workItem from="1695060853810" duration="594000" />
       <workItem from="1695063980347" duration="653000" />
-      <workItem from="1695100289526" duration="2352000" />
+      <workItem from="1695100289526" duration="7962000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 2 Done&#10;Randomized the Computer Choice">
       <option name="closed" value="true" />
@@ -89,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695031964033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stage 4 Done&#10;Intoducing Score Board&#10;and Users can now view their Ratings &#10;Their ratings are stored now in rating.txt">
+      <option name="closed" value="true" />
+      <created>1695108551313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695108551313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,60 +105,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stage 2 Done&#10;Randomized the Computer Choice" />
     <MESSAGE value="Stage 3 Done&#10;Handled invalid Input&#10;now the Game continues until user inputs &quot;!exit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 3 Done&#10;Handled invalid Input&#10;now the Game continues until user inputs &quot;!exit&quot;" />
+    <MESSAGE value="Stage 4 Done&#10;Intoducing Score Board&#10;and Users can now view their Ratings &#10;Their ratings are stored now in rating.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 4 Done&#10;Intoducing Score Board&#10;and Users can now view their Ratings &#10;Their ratings are stored now in rating.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1" />
+          <line>118</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="2" />
+          <line>125</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="3" />
+          <line>127</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rockpaperscissors/Main.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="10" />
+          <line>130</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
